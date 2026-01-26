@@ -1,0 +1,14 @@
+{
+  "name": "fluton-testnet-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@zama-fhe/relayer-sdk": "^0.4.0-3",
+    "ethers": "^6.9.0",
+    "node-fetch": "^3.3.2"
+  }
+}

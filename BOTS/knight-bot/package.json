@@ -1,0 +1,20 @@
+{
+  "name": "kazuha-bot",
+  "version": "1.0.0",
+  "description": "Neura Knight Bot by Kazuha VIP Only",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "neura",
+    "knight",
+    "bot",
+    "kazuha"
+  ],
+  "author": "Kazuha",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

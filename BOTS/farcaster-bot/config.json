@@ -1,0 +1,20 @@
+{
+  "api_url": "https://farcaster.xyz/~api/v2",
+  "feed_key": "home",
+  "feed_type": "default",
+  "rate_limit_delay": {
+    "min": 3,
+    "max": 8,
+    "follow_min": 8,
+    "follow_max": 15
+  },
+  "timeout": 30,
+  "max_retries": 3,
+  "token_file": "data.txt",
+  "message_file": "messages.txt",
+  "like_count": 5,
+  "recast_count": 5,
+  "follow_count": 5,
+  "comment_count": 3,
+  "post_count": 1
+}

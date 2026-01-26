@@ -1,0 +1,7 @@
+192.168.1.100:8080
+http://proxy1.example.com:3128
+https://proxy2.example.com:8443
+socks5://127.0.0.1:1080
+socks4://192.168.0.1:1081
+http://username:password@proxy3.example.com:8080
+https://user:pass@192.168.2.100:3128

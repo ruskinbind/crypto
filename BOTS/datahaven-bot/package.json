@@ -1,0 +1,29 @@
+{
+  "name": "datahaven-auto-bot",
+  "version": "1.0.0",
+  "description": "DataHaven Auto Bot - Created by Kazuha VIP Only",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "datahaven",
+    "auto",
+    "bot"
+  ],
+  "author": "Kazuha VIP",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/types": "^12.0.2",
+    "@storagehub-sdk/core": "^0.1.0",
+    "axios": "^1.7.2",
+    "axios-cookiejar-support": "^5.0.2",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.13.1",
+    "form-data": "^4.0.0",
+    "https-proxy-agent": "^7.0.4",
+    "siwe": "^2.3.2",
+    "socks-proxy-agent": "^8.0.3",
+    "tough-cookie": "^4.1.4"
+  }
+}
