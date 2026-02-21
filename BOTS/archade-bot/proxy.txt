@@ -1,0 +1,12 @@
+# Proxy Configuration File
+# Format: One proxy per line (matched by line number to accounts in pv.txt)
+# Supported formats:
+# - http://ip:port
+# - http://user:pass@ip:port
+# - https://ip:port
+# - socks5://ip:port
+#
+# Example:
+# http://127.0.0.1:8080
+# http://user:pass@proxy.example.com:3128
+# socks5://192.168.1.1:1080

@@ -1,0 +1,20 @@
+{
+  "name": "kazuha-bot",
+  "version": "1.0.0",
+  "description": "Archade.io Automation Bot - VIP ONLY",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.87.0",
+    "axios": "^1.6.0",
+    "bs58": "^5.0.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "gradient-string": "^2.0.2",
+    "readline-sync": "^1.4.10"
+  }
+}
