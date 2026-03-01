@@ -1,0 +1,72 @@
+{
+  "threads": 5,
+  "delay": {
+    "min": 3000,
+    "max": 7000
+  },
+  "api": {
+    "tideBaseUrl": "https://tide.am/api",
+    "suiRpc": "https://fullnode.testnet.sui.io/",
+    "faucetUrl": "https://faucet.testnet.sui.io"
+  },
+  "features": {
+    "faucet": true,
+    "deposit": true,
+    "mintPass": true,
+    "claimRewards": true,
+    "borrow": true,
+    "tradePass": true,
+    "dailyLoop": true,
+    "crossTrade": true
+  },
+  "proxy": {
+    "enabled": true,
+    "protocol": "http",
+    "randomProxy": true
+  },
+  "captcha": {
+    "service": "capmonster",
+    "apiKey2Captcha": "YOUR_2CAPTCHA_API_KEY",
+    "apiKeyCapslover": "YOUR_CAPSLOVER_API_KEY",
+    "apiKeyCapmonster": "YOUR_CAPMONSTER_API_KEY"
+  },
+  "faucet": {
+    "maxClaims": 5,
+    "delayBetween": 5000
+  },
+  "deposit": {
+    "amountSUI": 2
+  },
+  "marketplace": {
+    "maxBuyPrice": 55000000000,
+    "sellPrice": 999000000000,
+    "repeatCount": 5,
+    "crossPrice": 100000000,
+    "crossRepeat": 3
+  },
+  "loan": {
+    "borrowAmount": 0.5,
+    "repeatCount": 3
+  },
+  "referral": {
+    "enabled": true,
+    "code": "TIDE-249BF61FYYCX"
+  },
+  "rescue": {
+    "enabled": true,
+    "minBalance": 1,
+    "reserveBalance": 1,
+    "maxTransfer": 50,
+    "runBefore": true
+  },
+  "collect": {
+    "targetIndex": 0,
+    "targetAddress": "",
+    "minKeep": 0.01
+  },
+  "schedule": {
+    "intervalHours": 6
+  },
+  "powThreads": 10,
+  "randomOrder": false
+}

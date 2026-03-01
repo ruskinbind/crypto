@@ -1,0 +1,26 @@
+{
+  "name": "tide-auto-bot",
+  "version": "1.2.0",
+  "description": "Auto farming bot cho Tide Protocol trên SUI Testnet",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "faucet": "node src/index.js --faucet",
+    "collect": "node src/index.js --collect",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.18.0",
+    "axios": "^1.7.9",
+    "blake2b": "^2.1.4",
+    "chalk": "^5.4.1",
+    "dayjs": "^1.11.13",
+    "https-proxy-agent": "^7.0.6",
+    "p-limit": "^6.2.0",
+    "socks-proxy-agent": "^8.0.5"
+  },
+  "devDependencies": {
+    "2captcha-ts": "^2.4.1"
+  }
+}
